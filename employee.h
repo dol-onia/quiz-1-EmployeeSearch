@@ -1,19 +1,19 @@
-#include <stdio.h> 
+#include <stdio.h> 
 
-#include <stddef.h> 
+#include <stddef.h> 
 
-typedef struct { 
+typedef struct { 
 
-    long number; 
+    long number; 
 
-    char *name; 
+    char *name; 
 
-    char *phone; 
+    char *phone; 
 
-    double salary; 
+    double salary; 
 
-} Employee, *PtrToEmployee; 
+} Employee, *PtrToEmployee; 
 
  
 
-typedef const Employee *PtrToConstEmployee; 
+typedef const Employee *PtrToConstEmployee; 
